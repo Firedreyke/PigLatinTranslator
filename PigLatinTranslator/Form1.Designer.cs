@@ -55,7 +55,6 @@
             this.txtEnglish.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtEnglish.Size = new System.Drawing.Size(448, 156);
             this.txtEnglish.TabIndex = 1;
-
             // 
             // txtPigLatin
             // 
@@ -81,14 +80,15 @@
             // 
             this.btnTranslate.Location = new System.Drawing.Point(31, 462);
             this.btnTranslate.Name = "btnTranslate";
-            this.btnTranslate.Size = new System.Drawing.Size(75, 23);
+            this.btnTranslate.Size = new System.Drawing.Size(95, 23);
             this.btnTranslate.TabIndex = 4;
             this.btnTranslate.Text = "&Translate";
             this.btnTranslate.UseVisualStyleBackColor = true;
+            this.btnTranslate.Click += new System.EventHandler(this.btnTranslate_Click);
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(122, 462);
+            this.btnClear.Location = new System.Drawing.Point(136, 462);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 5;
